@@ -46,8 +46,12 @@
   </DataSourceViews>
   <Roles>
     <ProjectItem>
-      <Name>Restricted User.role</Name>
-      <FullPath>Restricted User.role</FullPath>
+      <Name>Limited User.role</Name>
+      <FullPath>Limited User.role</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Juan Litros.role</Name>
+      <FullPath>Juan Litros.role</FullPath>
     </ProjectItem>
   </Roles>
   <Configurations>

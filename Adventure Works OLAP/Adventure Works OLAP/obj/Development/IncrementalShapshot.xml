@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <ProcessingOption>Default</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -19,57 +19,64 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>JSNZozdeYzZ/01a8N/y/oPiSVTY=7/5/2021 5:31:55 AM7/5/2021 8:20:58 PM</TimeStamp>
+        <TimeStamp>+pI6XE1zhsF9zv7REUi3UreuwM0=7/5/2021 10:04:30 PM7/5/2021 10:02:00 PM</TimeStamp>
         <ID>
           <String>Adventure Works Data Warehouse</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>9q+gyEg4l7mP63j/M+Vy6hz8fAs=6/23/2021 9:54:46 AM7/5/2021 8:20:58 PM</TimeStamp>
+        <TimeStamp>9q+gyEg4l7mP63j/M+Vy6hz8fAs=6/23/2021 9:54:46 AM7/5/2021 10:02:00 PM</TimeStamp>
         <ID>
           <String>Adventure Works DSV</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>fX9sx+nbL4VFuXZxsTwStEYAZCY=7/1/2021 9:35:41 PM7/5/2021 8:20:58 PM</TimeStamp>
+        <TimeStamp>k85ymPwE93Cl4kwpndzRYxAOwhc=7/5/2021 10:09:45 PM7/5/2021 10:02:00 PM</TimeStamp>
         <ID>
           <String>Date</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>P0/QpGgylLD5PDswIvRFfdNTwA8=7/1/2021 9:35:41 PM7/5/2021 8:20:58 PM</TimeStamp>
+        <TimeStamp>gxR5K126fE0x9UWuho4NlYyzl5A=7/5/2021 10:09:45 PM7/5/2021 10:02:00 PM</TimeStamp>
         <ID>
           <String>Customer</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>A4yQxHzBIpiLWlGnEditKTWs9Gk=7/5/2021 5:39:24 AM7/5/2021 8:20:58 PM</TimeStamp>
+        <TimeStamp>noCO5CMzJHCdPs8ekBOd5Bq9skQ=7/5/2021 10:09:45 PM7/5/2021 10:02:00 PM</TimeStamp>
         <ID>
           <String>Product</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>0hizbpiknP0NPrqhfz/ztK8rWKw=7/1/2021 9:37:51 PM7/5/2021 8:20:58 PMTNxEbJrv7vXLTOxFEqm9OVleIEY=2/20/2021 12:31:20 PM7/5/2021 8:20:58 PM</TimeStamp>
+        <TimeStamp>aiWaNMooKiXtbV23CitFrkHKxNY=7/5/2021 10:09:45 PM7/5/2021 10:02:00 PMTNxEbJrv7vXLTOxFEqm9OVleIEY=2/20/2021 12:31:20 PM7/5/2021 10:02:00 PM</TimeStamp>
         <ID>
           <String>Adventure Works Cube</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Role</Type>
-        <TimeStamp>ftGiw3d3WolsZQ8YT4lGL393h2E=7/5/2021 5:39:24 AM7/5/2021 8:20:58 PM</TimeStamp>
+        <TimeStamp>CWhGC62uvjvrB+q2A3ajrH/MqPk=7/5/2021 10:06:40 PM7/5/2021 10:02:55 PM</TimeStamp>
         <ID>
           <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>roO5WmlgqqFkTG35JRB+7kT75/8=7/5/2021 10:09:45 PM7/5/2021 10:08:00 PM</TimeStamp>
+        <ID>
+          <String>Role 1</String>
         </ID>
       </ObjectSnapshot>
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>NOclV0BAsmWT1ePMZMy/IDXiQgE=7/1/2021 9:28:16 PM7/5/2021 8:20:58 PM</TimeStamp>
+      <TimeStamp>8IHRU2TsH7gK0Asctu41fou8E98=7/5/2021 10:09:45 PM7/5/2021 10:02:00 PM</TimeStamp>
       <ID>
         <String>Adventure Works OLAP</String>
       </ID>
@@ -78,5 +85,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2021-07-05T20:22:29.413333Z</LastDeployed>
+  <LastDeployed>2021-07-05T22:09:57.56Z</LastDeployed>
 </DeploymentSnapshot>
